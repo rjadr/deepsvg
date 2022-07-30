@@ -112,4 +112,4 @@ class DeepSVGProject:
         clip = concatenate_videoclips(clips, method="compose", bg_color=(255, 255, 255))
 
         file_path = os.path.join(ROOT_DIR, f"{self.uid}.gif")
-        clip.write_gif(file_path, fps=24, verbose=False, logger=None)
+        clip.write_gif(file_path, fps=24, verbose=False)
